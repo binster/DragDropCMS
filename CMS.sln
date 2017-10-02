@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Web", "CMS.Web\CMS.Web.csproj", "{10D70EC6-834D-4CB3-BADD-EE05F3FBED36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Data", "CMS.Data\CMS.Data.csproj", "{57826A3E-43F1-4D63-9AE5-D0F8ADA45747}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D70EC6-834D-4CB3-BADD-EE05F3FBED36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D70EC6-834D-4CB3-BADD-EE05F3FBED36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D70EC6-834D-4CB3-BADD-EE05F3FBED36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D70EC6-834D-4CB3-BADD-EE05F3FBED36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57826A3E-43F1-4D63-9AE5-D0F8ADA45747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57826A3E-43F1-4D63-9AE5-D0F8ADA45747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57826A3E-43F1-4D63-9AE5-D0F8ADA45747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57826A3E-43F1-4D63-9AE5-D0F8ADA45747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
